@@ -55,7 +55,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         disabled={disabled || loading}
         className={cn(
-          "inline-flex items-center justify-center gap-2 font-medium transition-colors cursor-pointer select-none",
+          "inline-flex items-center justify-center gap-2 font-medium transition-colors cursor-pointer select-none whitespace-nowrap",
           "focus-visible:outline-2 focus-visible:outline-ink focus-visible:outline-offset-2",
           "disabled:pointer-events-none disabled:cursor-not-allowed",
           variantClasses[variant],

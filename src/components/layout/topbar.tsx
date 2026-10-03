@@ -24,20 +24,20 @@ export function Topbar({ user }: TopbarProps) {
   return (
     <header className="sticky top-0 z-30 flex h-16 w-full items-center justify-between bg-canvas/90 backdrop-blur-md px-6">
       {/* Search pill */}
-      <div className="w-72 lg:w-96">
+      <div className="w-64 lg:w-80 shrink-0">
         <SearchPill compact placeholder="Search courses, lessons, discussions..." />
       </div>
 
       {/* Right controls */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 shrink-0 whitespace-nowrap">
         {/* Quick Demo Role Picker Pill */}
         <div className="relative">
           <button
             onClick={() => setRoleSelectOpen(!roleSelectOpen)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-1 hover:bg-surface-2 text-xs font-semibold text-ink-muted hover:text-ink transition-colors"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-1 hover:bg-surface-2 text-xs font-semibold text-ink-muted hover:text-ink transition-colors cursor-pointer whitespace-nowrap shrink-0"
           >
             <span className="h-2 w-2 rounded-full bg-accent" />
-            <span className="capitalize">
+            <span className="capitalize whitespace-nowrap">
               {user.isAdmin ? "Admin View" : user.isCreator ? "Creator View" : "Student View"}
             </span>
           </button>
