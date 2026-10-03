@@ -19,7 +19,7 @@ export function Hero() {
           <div className="inline-flex p-1 rounded-full bg-surface-2 text-xs font-bold">
             <button
               onClick={() => setAudience("learn")}
-              className={`px-4 py-2 rounded-full transition-all ${
+              className={`px-4 py-2 rounded-full cursor-pointer transition-all ${
                 audience === "learn"
                   ? "bg-accent text-accent-fg"
                   : "text-ink-muted hover:text-ink"
@@ -29,7 +29,7 @@ export function Hero() {
             </button>
             <button
               onClick={() => setAudience("teach")}
-              className={`px-4 py-2 rounded-full transition-all ${
+              className={`px-4 py-2 rounded-full cursor-pointer transition-all ${
                 audience === "teach"
                   ? "bg-accent text-accent-fg"
                   : "text-ink-muted hover:text-ink"
@@ -62,7 +62,7 @@ export function Hero() {
               </p>
 
               {/* Big Search Pill */}
-              <div className="max-w-lg mx-auto lg:mx-0">
+              <div className="w-full max-w-xl mx-auto lg:mx-0">
                 <SearchPill placeholder="Try 'Next.js 15', 'Figma Tokens', or 'Meta Ads'..." />
               </div>
 

@@ -8,8 +8,12 @@
   --color-primary-tint: #fff1f4;
   --color-on-primary: #ffffff;
 
+  --color-accent: #ff385c;
+  --color-accent-fg: #ffffff;
+
   /* Ink (text) */
   --color-ink: #222222;
+  --color-ink-muted: #6a6a6a;
   --color-body: #3f3f3f;
   --color-muted: #6a6a6a;
   --color-muted-soft: #929292;
@@ -69,7 +73,11 @@
   --color-primary-tint: var(--color-primary-tint);
   --color-on-primary: var(--color-on-primary);
 
+  --color-accent: var(--color-accent);
+  --color-accent-fg: var(--color-accent-fg);
+
   --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
   --color-body: var(--color-body);
   --color-muted: var(--color-muted);
   --color-muted-soft: var(--color-muted-soft);
@@ -104,17 +112,6 @@
   --color-cat-violet-ink: var(--color-cat-violet-ink);
   --color-cat-plum: var(--color-cat-plum);
   --color-cat-plum-ink: var(--color-cat-plum-ink);
-
-  --spacing-xxs: 2px;
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 12px;
-  --spacing-base: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-xxl: 48px;
-  --spacing-section: 64px;
-  --spacing-section-lg: 96px;
 
   --radius-xs: 4px;
   --radius-sm: 8px;

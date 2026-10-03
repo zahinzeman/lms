@@ -25,7 +25,7 @@ export function Topbar({ user }: TopbarProps) {
     <header className="sticky top-0 z-30 flex h-16 w-full items-center justify-between bg-canvas/90 backdrop-blur-md px-6">
       {/* Search pill */}
       <div className="w-72 lg:w-96">
-        <SearchPill placeholder="Search courses, lessons, discussions..." />
+        <SearchPill compact placeholder="Search courses, lessons, discussions..." />
       </div>
 
       {/* Right controls */}

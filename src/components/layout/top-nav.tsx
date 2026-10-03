@@ -37,7 +37,7 @@ export function TopNav({ user }: TopNavProps) {
 
           {/* Search Pill */}
           <div className="hidden md:block w-72 lg:w-96">
-            <SearchPill />
+            <SearchPill compact />
           </div>
         </div>
 
